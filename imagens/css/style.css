@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* instalando fontes bi servidor */
+@font-face{src: url("../fontes/Roboto-Black.ttf"); font-family: roboto-black;}
+@font-face{src: url("../fontes/Roboto-Regular.ttf"); font-family: roboto-regular;}
+@font-face{src: url("../fontes/Roboto-Thin.ttf"); font-family: roboto-thin;}
+
+body, html{
+	height: 100%;
+	width: 100%;
+	font-family: roboto-regular;
+	font-size: 16px;
+	color: #666;
+	
+	
+}
+nav{
+	width: 100%;
+	background-color: #333;
+	text-align: center;
+}
+nav a{
+	color: #fff;
+	font-family: roboto-thin;
+	display: inline-block;
+	padding: 0.5% 2% 2%;
+	font-size: 18px;
+	margin-top: 1.5%;
+	border-top: 3px solid transparent;
+}
+nav a:hover{
+	color: #ffcc00;
+	border-color: #ffcc00;
+}

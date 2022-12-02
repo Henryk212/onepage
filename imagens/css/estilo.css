@@ -82,7 +82,7 @@ section{
 	font-family: roboto-thin;
 	margin: 1%;
 }
-#servicos article, #portfolio article, #equipe article{
+#servicos article, #portfolio article{
 	width: 30%;
 	margin-left: 2.5%;
 	float: left;
@@ -202,81 +202,10 @@ section{
 .descriempresa{
 	text-align: justify;
 }
-#equipe {
+#equipe{
 	margin-top:  30%;
-	background-color: #000000;
-	color: #fff;
-}
-#equipe article img{
-	border-radius: 50%;
-	border: 5px solid #ffcc00;
-}
-.nome{
-	font-family: roboto-black;
-}
-.cargo{
-	font-family: roboto-thin;
-	margin-bottom: 2%;
-	
-}
-#equipe article a{
-	font-size: 20px;
-	color: #ccc;
-	margin: 2%;
-}
-#equipe article a:hover{
-	color: #ffcc00;
 }
 
-#contato{
-	padding-left: 2%;
-	padding-right: 2%;
-	
-}
-#contato article{
-	width: 50%;
-	float: left;
-	margin-top: 2%;
-	padding: 2%;
-	height: 80%;
-}
-.campo{
-	width: 100%;
-	margin: 0.3%;
-	padding: 2.8%;
-	font-size: 16px;
-	font-family: roboto-regular;
-	resize: none;
-	border: none;
-	background-color: #ccc;
-	border-radius: 5px;
-	outline: none;
-}
-.botao{
-	margin: 0.3%;
-	padding: 2%;
-	width: 100%;
-	border: 2px solid transparent;
-	background-color: #333;
-	color: #fff;
-	font-size: 16px;
-	font-family: roboto-regular;
-	cursor: pointer;
-	border-radius: 5px;
-	outline: none;
-}
-.botao:hover{
-	border-color: #ffcc00;
-	color: #333;
-	background-color: transparent;
-}
-footer{
-	width: 100%;
-	background-color: #000;
-	color: #fff;
-	padding: 1%;
-	margin-top: 1%;
-}
 
 
 
